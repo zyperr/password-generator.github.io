@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    background-color: #261e2d;
+    height: 1080px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #c53c0f;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    -webkit-box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    -moz-box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    
+}
+.container h1{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container .button{
+    width: 100px;
+    height: 50px;
+    box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    -webkit-box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    -moz-box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    border: none;
+    border-radius: 10px;
+    color: #ec440a;
+    background-color: #261e2d;
+}
+.input-container input::placeholder{
+    text-align: center;
+    color: #fff;
+}
+.password-container{
+    box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    -webkit-box-shadow: 21px -22px 49px -10px rgba(56, 56, 56, 0.39) inset;
+    -moz-box-shadow: 21px -22px 49px -10px rgba(0,0,0,0.39) inset;
+    background-color: #261e2d;
+    width: 260px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 170px;
+}
+.centrar-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.centrar-container .fa-regular{
+    position: relative;
+    top: 3px;
+    right:10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.centrar-container span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.container-checkbox{
+    font-family: monospace;
+    position: relative;
+    top: 30px;
+    right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#checkbox{
+    
+    position: relative;
+    top: 25px;
+    right: 30px;
+    width: 30px;
+}
